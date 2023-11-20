@@ -1,11 +1,10 @@
- 
  header {
     background-color: black;
     width: 100%;
     height: 100px;
  }
- 
- header > img {
+
+ header>img {
     width: 200px;
     display: flex;
     justify-content: center;
@@ -13,13 +12,49 @@
     position: relative;
     top: 20px;
  }
- 
+
  .nav-link {
     color: rgb(255, 255, 255) !important
  }
 
- .card > img{
+ .card>img {
     width: 200px !important;
     height: 200px !important;
     margin: auto;
+ }
+
+ .card {
+    height: auto;
+    margin: 40px;
+    border-color: black;
+ }
+
+ .cuide {
+    width: 100%;
+    height: 200px;
+    margin: 20px;
+ }
+
+ .cuideText {
+    text-align: center;
+ }
+
+ #p1text1 {
+    margin: 0 30px 30px 30px;
+
+ }
+
+ #p2text1 {
+   margin: 0px 30px 30px 30px;
+ }
+
+ hr {
+   width: 100%;
+   height: 1px;
+   background-color: #dddddd;
+
+}
+
+.card-group {
+   margin: 60px;
 }
