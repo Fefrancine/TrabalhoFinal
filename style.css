@@ -60,5 +60,15 @@
 }
 
 .car2 {
+   margin: 60px;
    width: 50%px;
+}
+
+.login {
+   background-color: black !important;
+   color: white;
+   display: flex;
+   width: 50%;
+   justify-content: center;
+
 }
