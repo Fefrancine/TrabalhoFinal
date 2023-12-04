@@ -68,6 +68,21 @@
     background-color: black !important;
     color: white;
     display: flex;
-    width: 50%;
+
     justify-content: center;
  }
+
+ .login form{
+   width: 50%;
+ }
+
+ .card-body h1 {
+   font-size: 1em;
+ }
+
+.row h1 {
+   font-size: 1em;
+}
+
+
+
