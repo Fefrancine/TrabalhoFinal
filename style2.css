@@ -1,5 +1,34 @@
-/* fundo da pg de login */
 
-main .LOGIN{
-    background-image: url(file:///home/fernanda.freitas/Downloads/TrabalhoFinal/Imagens/icons/fundoLogin.webp);
+
+main .login {
+    display: flex;
+    align-items: center;
+    display:block;
+    position: relative;
+    font-size: 15px;
+    font-family: 'Gotu', sans-serif;
+    font-weight: bold;
+    width: 1200px;
+    min-height: 60vh;
+    border-radius: 20px;
+}
+
+body {
+    background: none;
+    background-image: url(Imagens/icons/fundoLogin.webp);
+}
+
+body main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+main .login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
